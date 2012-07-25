@@ -1184,7 +1184,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>364941168.86507201</real>
+		<real>364941176.638924</real>
 		<string>{0, 702}</string>
 		<string>{509, 0}</string>
 		<string>neurimeApp::draw()</string>
@@ -1230,7 +1230,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1020, 672}}</string>
+		<string>{{0, 0}, {1020, 694}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2314,7 +2314,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>364941168.86173397</real>
+		<real>364941176.63527101</real>
 		<string>{0, 702}</string>
 		<string>{509, 0}</string>
 		<dict>
