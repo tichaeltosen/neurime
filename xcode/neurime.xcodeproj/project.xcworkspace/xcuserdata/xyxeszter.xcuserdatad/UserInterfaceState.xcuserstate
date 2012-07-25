@@ -210,7 +210,7 @@
 		<string>IDEEditorArea</string>
 		<integer>0</integer>
 		<true/>
-		<string>test.cpp</string>
+		<string>neuron.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -508,7 +508,7 @@
 		</dict>
 		<string>neurime</string>
 		<string>Source</string>
-		<string>test.cpp</string>
+		<string>neuron.cpp</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1105,7 +1105,7 @@
 				<integer>110</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/test.cpp</string>
+			<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp</string>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1184,8 +1184,8 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>364942260.06625599</real>
-		<string>{0, 152}</string>
+		<real>364942509.71575099</real>
+		<string>{0, 154}</string>
 		<string>{0, 0}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
@@ -1205,7 +1205,7 @@
 				<integer>123</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/test.cpp</string>
+		<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -2355,7 +2355,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>364942255.03846502</real>
+		<real>364942505.52538699</real>
 		<string>{0, 702}</string>
 		<string>{421, 1}</string>
 		<dict>
@@ -2451,7 +2451,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>364941409.93433702</real>
+		<real>364942509.713462</real>
 		<string>{0, 154}</string>
 		<dict>
 			<key>$class</key>
@@ -2498,7 +2498,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>364942260.06399202</real>
+		<real>364942504.68497598</real>
 		<string>{0, 152}</string>
 		<dict>
 			<key>$class</key>
@@ -3233,7 +3233,7 @@
 				<integer>301</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/test.cpp</string>
+		<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3269,7 +3269,7 @@
 				<integer>305</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp</string>
+		<string>file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/test.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
