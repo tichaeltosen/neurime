@@ -19,6 +19,7 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AC8E104215C093AE003FBDA3 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC8E104115C093AE003FBDA3 /* test.cpp */; };
 		ACF4053815B9FB7300602873 /* neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF4053715B9FB7300602873 /* neuron.cpp */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* neurime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neurime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8E104115C093AE003FBDA3 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		ACF4053715B9FB7300602873 /* neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neuron.cpp; sourceTree = "<group>"; };
 		ACF4053B15B9FBAB00602873 /* neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neuron.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 			children = (
 				ACF4053715B9FB7300602873 /* neuron.cpp */,
 				00BAE6590E7ED9C10018A608 /* neurimeApp.cpp */,
+				AC8E104115C093AE003FBDA3 /* test.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				00BAE65A0E7ED9C10018A608 /* neurimeApp.cpp in Sources */,
 				ACF4053815B9FB7300602873 /* neuron.cpp in Sources */,
+				AC8E104215C093AE003FBDA3 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
