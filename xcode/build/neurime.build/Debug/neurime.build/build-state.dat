@@ -5,14 +5,14 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/Info.plist Info.plist
 cCpResource CinderApp.icns ./build/Debug/neurime.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/7v/0rm_wyv119l3fpcydt9nt3xc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/neurime_Prefix-guymbchisfeuxdgprsknmguddefm/neurime_Prefix.pch.gch neurime_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neuron.o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 cCompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neuron.o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 cLd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime normal i386
 cTouch /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app
 
 N/Developer/SDKs/MacOSX10.6.sdk
-c000000004FD57DE500000000000000EE
-t1339391461
+c00000000500C219600000000000000EE
+t1342972310
 s238
 
 N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
@@ -5994,14 +5994,14 @@ s719
 i<boost/config.hpp>
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp
-c000000005009C56800000000000002BC
-t1342817640
-s700
+c00000000501057D300000000000002BE
+t1343248339
+s702
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app
-t1342817630
+t1342817645
 s102
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/Info.plist
@@ -6009,7 +6009,7 @@ t1342817624
 s1218
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime
-t1342817630
+t1342817645
 s7712044
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/PkgInfo
@@ -6026,7 +6026,7 @@ t1342817624
 s272
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o
-t1342817629
+t1342817645
 s320268
 
 N/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neuron.o
@@ -6496,11 +6496,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd3bdc6e8fcb9b541^bcb3cae8fcb9b541^---0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa5f840558fc0b541^a0f9f05b8fc0b541^---0#1#0#--18"Check dependencies
 
 CCompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s364510440.859737
-e364510445.171257
+s364941147.988807
+e364941160.136628
 r1
 xCompileC
 x./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o
@@ -6509,7 +6509,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp6a31dce8fcb9b541^c7d62bedfcb9b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp0000000000000000^1917"CompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o ../src/neurimeApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-generated-files.hmap -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-own-target-headers.hmap -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-all-target-headers.hmap -iquote /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-project-headers.hmap -iquote../../../include -iquote../include -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug/include -I../../../boost -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/DerivedSources/i386 -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/DerivedSources -F/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -include /var/folders/7v/0rm_wyv119l3fpcydt9nt3xc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/neurime_Prefix-guymbchisfeuxdgprsknmguddefm/neurime_Prefix.pch -c /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp -o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cppf33bfd5b8fc0b541^f8e223688fc0b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp0000000000000000^1917"CompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o ../src/neurimeApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-generated-files.hmap -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-own-target-headers.hmap -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-all-target-headers.hmap -iquote /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-project-headers.hmap -iquote../../../include -iquote../include -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug/include -I../../../boost -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/DerivedSources/i386 -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/DerivedSources -F/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -include /var/folders/7v/0rm_wyv119l3fpcydt9nt3xc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/neurime_Prefix-guymbchisfeuxdgprsknmguddefm/neurime_Prefix.pch -c /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/../src/neurimeApp.cpp -o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurimeApp.o
 
 CCompileC ./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neuron.o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neuron.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 s364510424.981522
@@ -6537,14 +6537,14 @@ x./build/Debug/neurime.app/Contents/Resources/CinderApp.icns
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy ./build/Debug/neurime.app/Contents/Resources/CinderApp.icns7dd0e3d8fcb9b541^21cde4d8fcb9b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/Resources/CinderApp.icns00f47ceeddffdf42^441"CpResource CinderApp.icns ./build/Debug/neurime.app/Contents/Resources/CinderApp.icns    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/CinderApp.icns /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/Resources
 
 CLd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime normal i386
-s364510445.178785
-e364510445.729455
+s364941160.142974
+e364941163.688994
 r1
 xLd
 x/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime
 xnormal
 xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurimeb2d92dedfcb9b541^fbcbbaedfcb9b541^---0#0#0#--949"Ld ./build/Debug/neurime.app/Contents/MacOS/neurime normal i386    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -F/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -filelist /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurime.LinkFileList -mmacosx-version-min=10.5 ../../..//lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime5bb424688fc0b541^aa60b06b8fc0b541^---0#0#0#--949"Ld ./build/Debug/neurime.app/Contents/MacOS/neurime normal i386    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -F/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -filelist /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/Objects-normal/i386/neurime.LinkFileList -mmacosx-version-min=10.5 ../../..//lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/MacOS/neurime
 
 CProcessInfoPlistFile /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app/Contents/Info.plist Info.plist
 s364510424.824622
@@ -6572,10 +6572,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile neurime_Prefix.pchaa10e7d8fcb9b541^6170f9d8fcb9b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neurime_Prefix.pch0000000000000000^1865"ProcessPCH++ /var/folders/7v/0rm_wyv119l3fpcydt9nt3xc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/neurime_Prefix-guymbchisfeuxdgprsknmguddefm/neurime_Prefix.pch.gch neurime_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-generated-files.hmap -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-own-target-headers.hmap -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-all-target-headers.hmap -iquote /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/neurime-project-headers.hmap -iquote../../../include -iquote../include -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug/include -I../../../boost -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/DerivedSources/i386 -I/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/neurime.build/Debug/neurime.build/DerivedSources -F/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/build/Debug -c /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/neurime_Prefix.pch -o /var/folders/7v/0rm_wyv119l3fpcydt9nt3xc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/neurime_Prefix-guymbchisfeuxdgprsknmguddefm/neurime_Prefix.pch.gch
 
 CTouch /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app
-s364510445.737616
-e364510445.746989
+s364941163.698005
+e364941163.726636
 r1
 xTouch
 x/Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app58e3bcedfcb9b541^2c7ebfedfcb9b541^---0#0#0#--213"Touch ./build/Debug/neurime.app    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    /usr/bin/touch -c /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.appa0c1b26b8fc0b541^8e04ba6b8fc0b541^---0#0#0#--213"Touch ./build/Debug/neurime.app    cd /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode    /usr/bin/touch -c /Users/xyxeszter/cinder_0.8.4_mac/eszterExamples/neurime/xcode/./build/Debug/neurime.app
 

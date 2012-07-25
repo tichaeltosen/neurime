@@ -29,7 +29,7 @@ void neurimeApp::update()
 void neurimeApp::draw()
 {
 	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) ); 
+	gl::clear( Color( 0, 120, 0 ) ); 
 }
 
 void neurimeApp::prepareSettings( Settings *settings ){
